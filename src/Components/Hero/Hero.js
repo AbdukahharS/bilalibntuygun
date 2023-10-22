@@ -22,7 +22,11 @@ const Hero = (props) => (
           International College Subang where I am majoring in Business,
           Accounting and Finance.
         </SectionText>
-        <a target='_blank' href='https://t.me/biloliddinabduvahobov'>
+        <a
+          target='_blank'
+          href='https://t.me/biloliddinabduvahobov'
+          rel='noreferrer'
+        >
           <Button onClick={props.handleClick}>Learn More</Button>
         </a>
       </LeftSection>
