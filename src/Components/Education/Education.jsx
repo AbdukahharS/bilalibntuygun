@@ -25,7 +25,7 @@ const Education = () => (
         <ListContainer>
           <ListTitle>IELTS</ListTitle>
           <ListParagraph>IDP</ListParagraph>
-          <ListLink href='/'>
+          <ListLink href='https://www.exams.uz/'>
             Visit website <BiChevronRight />
           </ListLink>
         </ListContainer>
@@ -35,7 +35,7 @@ const Education = () => (
         <ListContainer>
           <ListTitle>SAT</ListTitle>
           <ListParagraph>CollegeBoard</ListParagraph>
-          <ListLink href='/'>
+          <ListLink href='https://www.collegeboard.org/'>
             Visit website <BiChevronRight />
           </ListLink>
         </ListContainer>
@@ -45,7 +45,7 @@ const Education = () => (
         <ListContainer>
           <ListTitle>TESOL/TEFL </ListTitle>
           <ListParagraph>World Tesol Academy</ListParagraph>
-          <ListLink href='/'>
+          <ListLink href='https://www.worldtesolacademy.com/?gad=1&gclid=EAIaIQobChMI2PyhpuOBggMVTTiDAx0C9wVYEAAYASAAEgLJvPD_BwE'>
             Visit website <BiChevronRight />
           </ListLink>
         </ListContainer>
