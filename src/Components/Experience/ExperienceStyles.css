@@ -1,0 +1,36 @@
+.my-card {
+  padding: 10px 14px;
+}
+
+.my-card-title {
+  font-weight: 700;
+}
+
+.card-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.card-content .card-text {
+  white-space: pre-line;
+  font-size: 1.4rem !important;
+  color: #8a8c91;
+}
+
+.card-content hr {
+  margin: 10px 0;
+}
+
+.card-content .card-bottom {
+  color: #333;
+  font-size: 1.4rem;
+}
+
+.card-content .card-bottom span {
+  font-weight: 600;
+}
+
+.my-card-subtitle {
+  margin-top: 5px !important;
+}
