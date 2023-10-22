@@ -1,6 +1,6 @@
 import React from 'react'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import { FaTelegramPlane } from 'react-icons/fa'
+import { AiOutlineWhatsApp, AiFillLinkedin } from 'react-icons/ai'
+import { FaInstagram } from 'react-icons/fa'
 
 import {
   Container,
@@ -36,17 +36,23 @@ const Header = () => (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/KahhorovSh04' target='_blank'>
-        <AiFillGithub size='3rem' />
+      <SocialIcons
+        href='https://call.whatsapp.com/video/MTVT5L8pQqrIQswroCSURl'
+        target='_blank'
+      >
+        <AiOutlineWhatsApp size='3rem' />
       </SocialIcons>
       <SocialIcons
-        href='https://www.linkedin.com/in/shakhzad-kakhkhorov-8628b7202/'
+        href='https://www.linkedin.com/in/biloliddin-abduvahobov-979519218/'
         target='_blank'
       >
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://t.me/shakhzodbek_kakhkhorov' target='_blank'>
-        <FaTelegramPlane size='3rem' />
+      <SocialIcons
+        href='https://www.instagram.com/biloliddin_abduvakhabov/'
+        target='_blank'
+      >
+        <FaInstagram size='3rem' />
       </SocialIcons>
     </Div3>
   </Container>

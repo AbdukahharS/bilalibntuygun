@@ -1,6 +1,6 @@
 import React from 'react'
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
-import { FaTelegramPlane } from 'react-icons/fa'
+import { AiOutlineWhatsApp, AiFillLinkedin } from 'react-icons/ai'
+import { FaInstagram } from 'react-icons/fa'
 
 import { SocialIcons } from '../Header/HeaderStyles'
 import {
@@ -21,13 +21,13 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:+998906443143'>+998-90-644-3143</LinkItem>
-          <LinkItem href='tel:+6011331578589'>+60-11-31578589</LinkItem>
+          <LinkItem href='tel:+601126740772'>(+60) 1126740772</LinkItem>
+          <LinkItem href='tel:+998881500122'>(+998) 881500122</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:shakhzodbekkakhkhorov04@gmail.com'>
-            shakhzodbekkakhkhorov04@gmail.com
+          <LinkItem href='mailto:bilalibntuygun05@gmail.com'>
+            bilalibntuygun05@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -36,14 +36,23 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href='https://github.com/KahhorovSh04'>
-            <AiFillGithub size='3rem' />
+          <SocialIcons
+            href='https://call.whatsapp.com/video/MTVT5L8pQqrIQswroCSURl'
+            target='_blank'
+          >
+            <AiOutlineWhatsApp size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://www.linkedin.com/in/shakhzad-kakhkhorov-8628b7202/'>
+          <SocialIcons
+            href='https://www.linkedin.com/in/biloliddin-abduvahobov-979519218/'
+            target='_blank'
+          >
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://t.me/shakhzodbek_kakhkhorov'>
-            <FaTelegramPlane size='3rem' />
+          <SocialIcons
+            href='https://www.instagram.com/biloliddin_abduvakhabov/'
+            target='_blank'
+          >
+            <FaInstagram size='3rem' />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
