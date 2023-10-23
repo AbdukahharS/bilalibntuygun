@@ -1,5 +1,6 @@
 .my-card {
   padding: 10px 14px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .my-card-title {
@@ -23,7 +24,7 @@
 }
 
 .card-content .card-bottom {
-  color: #333;
+  color: #ccc;
   font-size: 1.4rem;
 }
 
@@ -33,4 +34,5 @@
 
 .my-card-subtitle {
   margin-top: 5px !important;
+  color: #fff !important;
 }

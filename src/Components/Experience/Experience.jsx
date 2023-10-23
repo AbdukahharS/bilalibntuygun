@@ -20,7 +20,7 @@ const Experience = () => (
       theme={{
         primary: '#00DBD8',
         secondary: '#00DBD8',
-        cardBgColor: '#fff',
+        cardBgColor: '#1f2634dd',
         titleColor: '#fff',
         titleColorActive: '#06d4d9',
       }}

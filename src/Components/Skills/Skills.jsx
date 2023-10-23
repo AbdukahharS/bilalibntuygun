@@ -8,7 +8,7 @@ import { List, ListDevider, ListItem } from './SkillsStyles'
 
 import { skills } from '../../Constants/constants'
 
-const Technologies = () => (
+const Skills = () => (
   <Section id='skills'>
     <SectionDivider divider />
     <SectionTitle>Skills</SectionTitle>
@@ -24,4 +24,4 @@ const Technologies = () => (
   </Section>
 )
 
-export default Technologies
+export default Skills

@@ -8,6 +8,7 @@ import Education from '../Components/Education/Education'
 import Experience from '../Components/Experience/Experience'
 import Languages from '../Components/Languages/Languages'
 import Skills from '../Components/Skills/Skills'
+import Honours from '../Components/Honours/Honours'
 import { Layout } from '../Layout/Layout'
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Experience />
       <Languages />
       <Skills />
+      <Honours />
       <Technologies />
     </Layout>
   )
