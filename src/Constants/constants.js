@@ -98,3 +98,51 @@ export const skills = [
   'Diplomatic',
   'Thinker & Speaker',
 ]
+
+export const languages = [
+  {
+    title: 'Uzbek',
+    isNative: true,
+  },
+  {
+    title: 'Russian',
+    listening: 'C2',
+    reading: 'C2',
+    writing: 'C2',
+    spokenInteraction: 'C2',
+    spokenProduction: 'C2',
+  },
+  {
+    title: 'English',
+    listening: 'C2',
+    reading: 'C1',
+    writing: 'C1',
+    spokenInteraction: 'C1',
+    spokenProduction: 'C1',
+  },
+  {
+    title: 'Turkish',
+    listening: 'B1',
+    reading: 'B2',
+    writing: 'B1',
+    spokenInteraction: 'B2',
+    spokenProduction: 'B2',
+  },
+  {
+    title: 'Arabic',
+    listening: 'A1',
+    reading: 'B1',
+    writing: 'A1',
+    spokenInteraction: 'A2',
+    spokenProduction: 'A2',
+  },
+]
+
+export const langScore = {
+  A1: 10,
+  A2: 20,
+  B1: 40,
+  B2: 60,
+  C1: 80,
+  C2: 100,
+}

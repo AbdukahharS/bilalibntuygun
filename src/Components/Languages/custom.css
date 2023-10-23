@@ -1,0 +1,20 @@
+.CircularProgressbar-path {
+  stroke: #5b84ec !important;
+}
+.CircularProgressbar-trail {
+  stroke: #ffffff33 !important;
+}
+.CircularProgressbar-text {
+  fill: #5b84ec !important;
+  font-size: 3.4rem !important;
+  font-weight: 600 !important;
+}
+
+.native-wrapper {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.native-wrapper .CircularProgressbar-text {
+  font-size: 2rem !important;
+}
