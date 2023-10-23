@@ -10,9 +10,10 @@ import {
   LinkItem,
   LinkList,
   LinkTitle,
-  Slogan,
+  Developer,
   SocialContainer,
   SocialIconsContainer,
+  Link,
 } from './FooterStyles'
 
 const Footer = () => {
@@ -33,7 +34,10 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Developer>
+            Developed by{' '}
+            <Link href='https://abdukahhar.uz'>Shahzod Abdukahhar</Link>
+          </Developer>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons

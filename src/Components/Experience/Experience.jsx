@@ -37,8 +37,8 @@ const Experience = () => (
         cardTitle: 'my-card-title',
       }}
     >
-      {data.map((experience) => (
-        <div className='card-content'>
+      {data.map((experience, i) => (
+        <div className='card-content' key={i}>
           <p className='card-text'>{experience.cardDetailedText}</p>
           <hr />
           <p className='card-bottom'>

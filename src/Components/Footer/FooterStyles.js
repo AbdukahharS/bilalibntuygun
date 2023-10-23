@@ -78,11 +78,11 @@ export const CompanyContainer = styled.div`
   }
 `
 
-export const Slogan = styled.p`
-  color: rgba(255, 255, 255, 0.5);
+export const Developer = styled.p`
+  color: rgba(255, 255, 255, 0.8);
   min-width: 280px;
   letter-spacing: 0.02em;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 30px;
   padding: 1rem;
 
@@ -95,6 +95,16 @@ export const Slogan = styled.p`
     line-height: 22px;
     font-size: 14px;
     min-width: 100px;
+  }
+`
+
+export const Link = styled.a`
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  font-weight: 600;
+
+  &:hover {
+    color: #00dbd8;
   }
 `
 
