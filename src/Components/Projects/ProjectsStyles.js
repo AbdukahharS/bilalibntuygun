@@ -1,94 +1,97 @@
 import styled from 'styled-components'
 
-export const Img = styled.img`
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  overflow: hidden;
-`
-
-export const BlogCard = styled.div`
-  border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  text-align: center;
-  width: 400px;
-  margin: 0 auto;
-  background: ${(props) => props.theme.colors.background1}dd;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 90%;
-  }
-`
-export const TitleContent = styled.div`
-  text-align: center;
-  z-index: 20;
-  width: 100%;
-`
-
-export const HeaderThree = styled.h3`
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: #9cc9e3;
-  padding: 0.5rem 0;
-  font-size: ${(props) => (props.title ? '3rem' : '2rem')};
-`
-
-export const Hr = styled.hr`
-  width: 50px;
-  height: 3px;
-  margin: 20px auto;
-  border: 0;
-  background: #d0bb57;
-`
-
-export const Intro = styled.div`
-  width: 170px;
-  margin: 0 auto;
-  color: #dce3e7;
-  font-family: 'Droid Serif', serif;
-  font-size: 13px;
-  font-style: italic;
-  line-height: 18px;
-`
-
-export const CardInfo = styled.p`
-  width: 100%;
-  padding: 0 50px;
-  color: #e4e6e7;
-  font-style: 2rem;
-  line-height: 24px;
-  text-align: justify;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0 3rem;
-  }
-`
-
-export const UtilityList = styled.ul`
+export const List = styled.ul`
   list-style-type: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-around;
-  margin: 2.5rem 0;
-`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 3rem 0;
 
-export const ExternalLinks = styled.a`
-  color: #d4c0c0;
-  font-size: 1.6rem;
-  padding: 1rem 1.5rem;
-  background: #6b3030;
-  border-radius: 15px;
-  transition: 0.5s;
-  margin-bottom: 1.4rem;
-  &:hover {
-    background: #801414;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    margin: 64px 0;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 64px 0;
+    gap: 24px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0;
   }
 `
 
-export const TagList = styled.ul`
+export const ListContainer = styled.div`
   display: flex;
-  justify-content: space-around;
-  padding: 2rem;
+  flex-direction: column;
+  gap: 5px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    display: flex;
+    margin-left: 18px;
+  }
 `
-export const Tag = styled.li`
-  color: #d8bfbf;
-  font-size: 1.5rem;
+
+export const ListTitle = styled.h4`
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 8px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+  }
+`
+
+export const ListParagraph = styled.p`
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  display: block;
+  flex: 1;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 14px;
+    line-height: 22px;
+  }
+`
+
+export const ListBottom = styled.span`
+  margin-top: 10px;
+`
+
+export const ListItem = styled.li`
+  max-width: 320px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #1f2634dd;
+  padding: 20px 25px !important;
+  border-radius: 10px;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 203px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-bottom: 14px;
+    max-width: 320px;
+    flex-direction: row;
+  }
 `
