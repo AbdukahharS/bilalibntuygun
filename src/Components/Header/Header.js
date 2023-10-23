@@ -32,7 +32,7 @@ const Header = () => (
         <NavLink href='#experience'>Experience</NavLink>
       </li>
       <li>
-        <NavLink href='#languages'>Languages</NavLink>
+        <NavLink href='#skills'>Skills</NavLink>
       </li>
     </Div2>
     <Div3>

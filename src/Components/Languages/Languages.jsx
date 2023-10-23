@@ -15,7 +15,7 @@ import {
 const Languages = () => (
   <Section id='languages'>
     <SectionDivider divider />
-    <SectionTitle>LANGUAGE SKILLS</SectionTitle>
+    <SectionTitle>Languages</SectionTitle>
     <List>
       <ListItem>
         <ListContainer>

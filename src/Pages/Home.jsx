@@ -7,6 +7,7 @@ import Technologies from '../Components/Technologies/Technologies'
 import Education from '../Components/Education/Education'
 import Experience from '../Components/Experience/Experience'
 import Languages from '../Components/Languages/Languages'
+import Skills from '../Components/Skills/Skills'
 import { Layout } from '../Layout/Layout'
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <Education />
       <Experience />
       <Languages />
+      <Skills />
       <Technologies />
     </Layout>
   )

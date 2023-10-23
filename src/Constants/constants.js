@@ -84,3 +84,17 @@ export const experience = [
     time: '10/04/2023 – 10/05/2023',
   },
 ]
+export const skills = [
+  'Microsoft Office',
+  'Microsoft Word',
+  'Facebook',
+  'Microsoft Powerpoint',
+  'Social Media',
+  'Instagram',
+  'Advisor',
+  'Decision-making',
+  'Good listener and communicator',
+  'Responsibility',
+  'Diplomatic',
+  'Thinker & Speaker',
+]
