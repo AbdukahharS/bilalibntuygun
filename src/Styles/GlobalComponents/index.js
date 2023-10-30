@@ -206,14 +206,12 @@ export const ButtonBack = styled.div`
     width: ${({ alt }) => (alt ? '150px' : '184px')};
     height: ${({ alt }) => (alt ? '52px' : '48px')};
     font-size: ${({ alt }) => (alt ? '20px' : '16px')};
-    margin-bottom: ${({ alt }) => (alt ? '0' : '64px')};
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
     height: 32px;
     font-size: 14px;
-    margin-bottom: ${({ alt }) => (alt ? '0' : '32px')};
   }
 `
 
