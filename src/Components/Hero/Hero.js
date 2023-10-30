@@ -7,9 +7,10 @@ import {
   SectionImage,
 } from '../../Styles/GlobalComponents'
 import Button from '../../Styles/GlobalComponents/Button'
-import { LeftSection, RightSection } from './HeroStyles'
+import { SecondaryBtn } from '../../Styles/GlobalComponents'
+import { LeftSection, RightSection, SectionButtons } from './HeroStyles'
 
-const Hero = (props) => (
+const Hero = () => (
   <>
     <Section reverse row nopadding breakLg>
       <LeftSection>
@@ -22,13 +23,27 @@ const Hero = (props) => (
           International College Subang where I am majoring in Business,
           Accounting and Finance.
         </SectionText>
-        <a
-          target='_blank'
-          href='https://t.me/biloliddinabduvahobov'
-          rel='noreferrer'
-        >
-          <Button onClick={props.handleClick}>Learn More</Button>
-        </a>
+        <SectionButtons>
+          <Button>
+            <a
+              href='https://t.me/an_unchosen_one'
+              rel='noreferrer'
+              target='_blank'
+            >
+              Learn More
+            </a>
+          </Button>
+          <SecondaryBtn hero>
+            <a
+              href='/files/Resume.pdf'
+              download
+              rel='noreferrer'
+              target='_blank'
+            >
+              Download CV
+            </a>
+          </SecondaryBtn>
+        </SectionButtons>
       </LeftSection>
       <RightSection>
         <SectionImage src={require('../../Images/photo.jpg')} />

@@ -36,3 +36,12 @@ export const RightSection = styled.div`
     margin: 0 auto;
   }
 `
+
+export const SectionButtons = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 60px 80px 0;
+  gap: 20px;
+  justify-content: space-between;
+`

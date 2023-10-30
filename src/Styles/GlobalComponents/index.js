@@ -144,8 +144,7 @@ export const SecondaryBtn = styled.button`
   font-size: 18px;
   line-height: 16px;
   width: fit-content;
-  margin-top: 32px;
-  margin-bottom: 80px;
+  margin: ${(props) => (props.hero ? '0' : '32px 0 80px 0')};
   cursor: pointer;
   transition: 0.4s ease;
   &:focus {
@@ -166,8 +165,7 @@ export const SecondaryBtn = styled.button`
   }
 
   @media ${(props) => props.theme.breakpoints.md} {
-    margin-top: 24px;
-    margin-bottom: 64px;
+    margin: ${(props) => (props.hero ? '0' : '24px 0 65px 0')};
     padding: 16px 24px;
     width: fit-content;
     font-size: 20px;
@@ -175,8 +173,7 @@ export const SecondaryBtn = styled.button`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    margin-top: 16px;
-    margin-bottom: 40px;
+    margin: ${(props) => (props.hero ? '0' : '16px 0 40px 0')};
     padding: 8px 16px;
     width: 100%;
     font-size: 14px;
@@ -193,7 +190,7 @@ export const ButtonBack = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: ${({ alt, form }) => (alt || form ? '0' : '0 0 80px')};
+  margin: 0;
   color: #fff;
   background: ${({ alt }) =>
     alt
