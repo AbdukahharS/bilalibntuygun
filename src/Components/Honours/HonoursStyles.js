@@ -14,19 +14,26 @@ export const List = styled.ul`
   @media ${(props) => props.theme.breakpoints.md} {
     margin: 64px 0;
     gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
     margin: 32px 0;
+    align-items: center;
   }
+`
+export const ListImage = styled.img`
+  width: 100%;
 `
 
 export const ListContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 5px;
+  padding: 20px 25px !important;
+  flex: 1;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
@@ -80,18 +87,17 @@ export const ListBottom = styled.span`
 export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
+  flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: #1f2634dd;
-  padding: 20px 25px !important;
   border-radius: 10px;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    max-width: 203px;
+    max-width: 320px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     margin-bottom: 14px;
     max-width: 320px;
-    flex-direction: row;
   }
 `

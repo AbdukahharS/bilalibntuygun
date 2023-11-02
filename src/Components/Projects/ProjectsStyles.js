@@ -20,6 +20,7 @@ export const List = styled.ul`
     display: flex;
     flex-direction: column;
     margin: 32px 0;
+    align-items: center;
   }
 `
 
@@ -75,6 +76,16 @@ export const ListParagraph = styled.p`
 
 export const ListBottom = styled.span`
   margin-top: 10px;
+`
+export const ListLink = styled.a`
+  margin-top: 10px;
+  text-align: right;
+  color: #1bc2de;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    color: #15a0b7;
+  }
 `
 
 export const ListItem = styled.li`

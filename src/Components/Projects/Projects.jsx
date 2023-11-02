@@ -11,6 +11,7 @@ import {
   ListParagraph,
   ListTitle,
   ListBottom,
+  ListLink,
 } from './ProjectsStyles'
 
 const Projects = () => (
@@ -27,6 +28,9 @@ const Projects = () => (
             learning, communication, and networking.
           </ListParagraph>
           <ListBottom>05/05/2022 – CURRENT</ListBottom>
+          <ListLink href='https://www.instagram.com/shafii.uz/'>
+            View Instagram
+          </ListLink>
         </ListContainer>
       </ListItem>
     </List>

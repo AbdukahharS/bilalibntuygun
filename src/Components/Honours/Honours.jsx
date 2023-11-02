@@ -11,6 +11,7 @@ import {
   ListParagraph,
   ListTitle,
   ListBottom,
+  ListImage,
 } from './HonoursStyles'
 
 const Honours = () => (
@@ -19,6 +20,7 @@ const Honours = () => (
     <SectionTitle>Honours and awards</SectionTitle>
     <List>
       <ListItem>
+        <ListImage src={require('../../Images/cert/result.png')} />
         <ListContainer>
           <ListTitle>Academic Support</ListTitle>
           <ListParagraph>
@@ -31,6 +33,7 @@ const Honours = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <ListImage src={require('../../Images/cert/millat-umidi.png')} />
         <ListContainer>
           <ListTitle>Millat Umidi Scholarship Winner</ListTitle>
           <ListParagraph>
@@ -42,6 +45,7 @@ const Honours = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <ListImage src={require('../../Images/cert/embassy.png')} />
         <ListContainer>
           <ListTitle>Certificate of Recognition</ListTitle>
           <ListParagraph>
@@ -54,6 +58,7 @@ const Honours = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <ListImage src={require('../../Images/cert/ibrat.png')} />
         <ListContainer>
           <ListTitle>Certificate of Participation</ListTitle>
           <ListParagraph>
@@ -65,6 +70,7 @@ const Honours = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <ListImage src={require('../../Images/cert/essay.png')} />
         <ListContainer>
           <ListTitle>Certificate of Achievement</ListTitle>
           <ListParagraph>
@@ -76,6 +82,7 @@ const Honours = () => (
         </ListContainer>
       </ListItem>
       <ListItem>
+        <ListImage src={require('../../Images/cert/mnemonics.png')} />
         <ListContainer>
           <ListTitle>Certificate of Participation</ListTitle>
           <ListParagraph>
